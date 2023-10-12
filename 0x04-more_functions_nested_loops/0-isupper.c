@@ -1,4 +1,4 @@
-#include "MAIN.h"
+#include "main.h"
 
 /**
  * _isupper - checks for uppercase
