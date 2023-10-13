@@ -23,9 +23,8 @@ void print_number(int n)
 		_putchar (n + '0');
 	}
 
-	else if (n < 0)
-		{
-			n = n * -1;
+else if (n < 0)
+		{	n = n * -1;
 			_putchar ('-');
 		}
 		z = n;
