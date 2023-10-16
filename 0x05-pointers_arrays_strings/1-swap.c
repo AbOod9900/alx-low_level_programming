@@ -8,18 +8,13 @@
 
 int main(void)
 {
-	int a = 10;
-	int b = 15;
-
-	printf("a=%d, b=%d\n", a, b);
-	void swap_int(int *a,int *b)
+	void swap_int(int *a, int *b)
 	{
-		int c;
+ 		int c;
 
 		c = *a;
 		*a = *b;
 		*b = c;
-	printf("a=%ls, b=%ls\n", a, b);
 	}
 	return (0);
 }
